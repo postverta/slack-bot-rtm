@@ -1,5 +1,7 @@
 # Slack bot demo using the RTM API
 
+[![Run with Postverta badge](http://postverta.io/badge.svg)](http://postverta.io/direct/postverta/slack-bot-rtm)
+
 This simple app demonstrates how to write a simple Slack bot using Slack's
 [Real-Time Messaging (RTM) API](https://api.slack.com/rtm) and its official
 [node SDK](https://slackapi.github.io/node-slack-sdk/bots).
