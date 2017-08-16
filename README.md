@@ -8,7 +8,7 @@ This simple app demonstrates how to write a simple Slack bot using Slack's
 
 ## Install the bot
 
-1. Go to Slack API's homepage [https://api.slack.com/apps/] and create a new app.
+1. Go to Slack API's homepage [https://api.slack.com/apps/](https://api.slack.com/apps/) and create a new app.
 Install the app with your team.
 
 2. Go to the "Bot Users" section under "Features", and create a new bot user.
