@@ -23,6 +23,7 @@
   "homepage": "https://github.com/postverta/slackbot-start#readme",
   "dependencies": {
     "@slack/client": "^3.10.0",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "body-parser": "^1.17.2"
   }
 }
