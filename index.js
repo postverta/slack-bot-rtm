@@ -16,7 +16,7 @@ var rtm = new RtmClient(botToken);
 // Incoming message handler
 rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
   console.log('Message:', message);
-  if (message["type"] === "message") {
+  if (message["type"] === "message" && message["user"] !== rtm.activeUserId) {
     rtm.sendMessage(message["text"], message["channel"]);
   }
 });
